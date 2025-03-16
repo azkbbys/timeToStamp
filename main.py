@@ -29,7 +29,6 @@ warn('请不要关闭本界面')
 root = tkinter.Tk()
 root.title('timeToStamp-v' + functions.info.version)
 root.geometry('500x500')
-root.iconbitmap('./images/icon.ico')
 root.resizable(False, False)
 
 # 设置初始值
